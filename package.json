@@ -3,8 +3,8 @@
 {
   "name": "simd-register-visualiser",
   "displayName": "SIMD Register Visualizer",
-  "version": "0.1.0",
-  "publisher": "Tomas Goldmann",
+  "version": "0.1.1",
+  "publisher": "STRADE",
 "engines": {
     "vscode": "^1.96.0" 
   },
@@ -18,5 +18,9 @@
         "title": "Show SIMD registers"
       }
     ]
-  }
+  },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/tgoldmann/SIMD-Register-Visualizer"
+}
 }
