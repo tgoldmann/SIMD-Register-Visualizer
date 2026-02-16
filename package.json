@@ -1,0 +1,22 @@
+
+
+{
+  "name": "simd-register-visualiser",
+  "displayName": "SIMD Register Visualizer",
+  "version": "0.1.0",
+  "publisher": "Tomas Goldmann",
+"engines": {
+    "vscode": "^1.96.0" 
+  },
+  "main": "./out/extension.js",
+  "categories": [ "Debuggers" ],
+  "activationEvents": [ "onDebug" ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "viewerRegs.show",
+        "title": "Show SIMD registers"
+      }
+    ]
+  }
+}
